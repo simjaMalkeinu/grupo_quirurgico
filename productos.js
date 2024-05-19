@@ -125,95 +125,95 @@ const productosBodyTherapy = [
 
 const productosMedicinaGeneral = [
   {
-    id: 1,
+    id: 31,
     nombre: "Consulta medica.",
   },
   {
-    id: 2,
+    id: 32,
     nombre: "Certificados escolares.",
   },
   {
-    id: 3,
+    id: 33,
     nombre: "Toma de glucosa.",
   },
   {
-    id: 4,
+    id: 34,
     nombre: "Toma de presión arterial.",
   },
   {
-    id: 5,
+    id: 35,
     nombre: "Nebulizaciones.",
   },
   {
-    id: 6,
+    id: 36,
     nombre: "Inyecciones.",
   },
   {
-    id: 7,
+    id: 37,
     nombre: "Control del niño sano.",
   },
   {
-    id: 8,
+    id: 38,
     nombre: "Planificación familiar.",
   },
   {
-    id: 9,
+    id: 39,
     nombre: "Control prenatal.",
   },
   {
-    id: 10,
+    id: 40,
     nombre: "Lavado de oídos.",
   },
   {
-    id: 11,
+    id: 41,
     nombre: "Teleconsulta.",
   },
   {
-    id: 12,
+    id: 42,
     nombre: "Lavado de oídos.",
   },
 ];
 
 const productosCirugia = [
   {
-    id: 1,
+    id: 43,
     nombre: "Suturas y retiro de puntos.",
   },
   {
-    id: 2,
+    id: 44,
     nombre: "Curaciones.",
   },
   {
-    id: 3,
+    id: 45,
     nombre: "Colocación, cambio y retiro de sonda foley.",
   },
   {
-    id: 4,
+    id: 46,
     nombre: "Laboratorio clínico.",
   },
   {
-    id: 5,
+    id: 47,
     nombre:
       "Prevención, diagnóstico y tratamiento de enfermedades crónico-degenerativas",
   },
   {
-    id: 6,
+    id: 48,
     nombre: "Cirugía abdominal.",
   },
   {
-    id: 7,
+    id: 49,
     nombre: "Vesícula.",
   },
   {
-    id: 8,
+    id: 50,
     nombre: "Apéndice.",
   },
   {
-    id: 9,
+    id: 51,
     nombre: "Hernias abdominales.",
   },
   {
-    id: 10,
+    id: 52,
     nombre: "Paracentésis.",
   },
 ];
@@ -228,7 +228,7 @@ productosMedicinaGeneral.map((product, i) => {
                                           <div class="bg-white shadow-sm rounded-lg overflow-hidden p-1 m-3">
                                               <div class="cbp-caption-defaultWrap">
                                                   <img src="data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                      data-cbp-src="./img/750x600/img1.jpg" width="373" height="298"
+                                                      data-cbp-src="./img/750x600/img${product.id}.jpg" width="373" height="298"
                                                       alt="Image Description">
                                               </div>
                                           </div>
@@ -247,7 +247,7 @@ productosCirugia.map((product, i) => {
                                         <div class="bg-white shadow-sm rounded-lg overflow-hidden p-1 m-3">
                                             <div class="cbp-caption-defaultWrap">
                                                 <img src="data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                    data-cbp-src="./img/750x600/img16.jpg" width="373" height="298"
+                                                    data-cbp-src="./img/750x600/img${product.id}.jpg" width="373" height="298"
                                                     alt="Image Description">
                                             </div>
                                         </div>
@@ -266,7 +266,7 @@ productosBodyTherapy.map((product, i) => {
                                       <div class="bg-white shadow-sm rounded-lg overflow-hidden p-1 m-3">
                                           <div class="cbp-caption-defaultWrap">
                                               <img src="data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                                                  data-cbp-src="./img/750x600/img32.jpg" width="373" height="298"
+                                                  data-cbp-src="./img/750x600/img${product.id}.jpg" width="373" height="298"
                                                   alt="Image Description">
                                           </div>
                                       </div>
